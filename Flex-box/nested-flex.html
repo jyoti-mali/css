@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Flex</title>
+</head>
+<body>
+    <div id="container">
+        <div class="box box1">one</div>
+        <div class="box box2">two</div>
+        <div class="box box3">
+            <div class="box box4">four</div>
+            <div class="box box5">five</div>
+            <div class="box box6">six</div>
+            <div class="box box7">seven</div>
+        </div>  
+        <div class="box box8">eight</div>
+    </div>
+    <style>
+        #container{
+            border: 1px solid black;
+            width: 20%;
+            margin: auto;
+        }
+        .box{
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+    }
+    .box1{
+        background-color: #7fe47b;
+    }
+    .box2{
+        background-color: #b9e29b;
+    }
+    .box3{
+        background-color: #5f83d1;
+        display: flex;
+    }
+    .box4{
+        background-color: #e6a763;
+    }
+    .box5{
+        background-color: #ca5dc3;
+    }
+    .box6{
+        background-color: #d46064;
+    }
+    .box7{
+        background-color: #4cec72a1;
+    }
+    .box8{
+        background-color: #b674cc;
+    }
+    </style>
+</body>
+</html>

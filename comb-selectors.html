@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selectors</title>
+    <style>
+        /* descendent selector */
+        /* div p{
+            color: orange;
+        } */
+        /* child selector */
+        /* div > p{
+            color: orange;
+        } */
+        /* Sdjucent sibling selector */
+        /* div + p{
+            color: orange;
+        } */
+        /* Sdjucent sibling selector */
+        div ~ p{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+       <section> 
+        <span>
+            <p> within section and span Lorem ipsum dolor sit amet.</p>
+        </span>
+        </section>
+        <span><p> within span Lorem ipsum dolor sit amet.</p></span>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <!-- Adjucent sibling -->
+    <p>Adjucent sibling selecotrs</p>
+    <p>Adjucent sibling selecotrs</p>
+    <span>
+        <p> within span Lorem ipsum dolor sit amet.</p>
+    </span>
+    <p>Adjucent sibling selecotrs</p>
+    
+</body>
+</html>

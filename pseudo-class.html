@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        a.highlight:hover{
+            color: orangered;
+        }
+        .tooltip{
+            width: 100px;
+            height: 20px;
+            border: 2px solid;
+            position: relative;
+        }
+        .tooltip p{
+            display: none;
+        }
+        .tooltip:hover p{
+            display: block;
+            border: 1px solid;
+            background-color: gray;
+            width: 100px;
+            color: white;
+            position: absolute;
+            top: 0px;
+            left: 30px;
+        }
+        p:first-child{
+            color: orchid;
+        }
+        /* p b:first-child{
+            color: purple;
+        } */
+
+        p:first-child b {
+            color: brown;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="" class="highlight">click</a>
+    <div class="tooltip">This is div
+        <p>this is tooltip</p>
+    </div>
+   <div>
+    <p><b>jyoti</b> and <b>swati </b>are relatives.</p>
+    <p>jyoti and swati are relatives.</p>
+    <p>jyoti and swati are relatives.</p>
+    <span>
+        <p>darshan and jyoti</p>
+        <p>darshan and jyoti</p>
+        <p>darshan and jyoti</p>
+        <section>
+            <span>
+                <p><b>radhe</b> and <b>krishna</b></p>
+                <p>radhe and krishna</p>
+            </span>
+        </section>
+    </span>
+   </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: christmas-font;
+    src: url(heavenly_christmas/Heavenly\ Christmas\ -\ Personal\ Use.otf);
+} 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 0.8rem;
+ 
+}
+.outer{
+    background: url("images/backgorund-img.jpg") no-repeat left;
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+   
+}
+
+.internal{
+    background-color: black;
+    width: 900px;
+    margin: 30px 0 30px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 4% 7%;
+}
+.internal h1{
+   font-family: christmas-font;
+}
+
+.right-side{
+    width: 60%;
+    padding: 4% 7%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 7px 0;
+}
+label{
+    margin: 5px;
+}
+input:focus{
+    border: none;
+}
+a{
+    color: rgb(214, 214, 120);
+}
+.check{
+    margin: 10px 0;
+}
+.check span{
+    position: relative;
+    left: 30px;
+}
+button{
+    background: #3a3737;
+    border-radius: 5px;
+    padding: 7px;
+    border: #3a3737;
+    color: white;
+    margin: 15px 0;
+}
+
+ img{
+    position: absolute;
+    bottom: 200px;
+    object-fit: cover;
+    transform: rotate(-20deg);
+}
+@media screen and (max-width:500px) {
+    .outer{
+        flex-direction: column;
+    }
+}

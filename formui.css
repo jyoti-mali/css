@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+div{
+    background-color: rgb(30, 29, 29);
+    border-radius: 15px;
+    width: 800px;
+    margin-left: 5cm;
+}
+input{
+    border: 0px;
+    border-radius: 30px;
+    height: 25px;
+    width: 120px;
+    background-color: rgb(102, 100, 102);
+}
+span{
+    color: tomato;
+}
+h1{
+    color: white;
+}
+b{
+    color: rgb(102, 100, 102);
+}
+button{
+    background-color: tomato;
+    height: 33px;
+    color: white;
+    width: 120px;
+    border: 0px;
+    border-radius: 20px;
+}
+.full-width{
+    width: 260px;
+    margin-bottom: 6px;
+}

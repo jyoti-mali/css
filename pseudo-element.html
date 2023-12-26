@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        p::first-letter{
+            font-size: 40px;
+            color: red;
+        }
+        p::first-line{
+            font-size: 40px;
+            color: orange;
+        }
+        p::after{
+            content: "jyoti";
+        }
+        /* when we select line  */
+        p::selection{
+            background-color: lightgrey;
+        }
+        li::marker{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>This is Pseudo Element. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolore recusandae accusamus possimus reprehenderit commodi delectus ullam magnam dignissimos nihil?</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+</body>
+</html>
